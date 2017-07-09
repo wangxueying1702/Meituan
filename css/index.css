@@ -2,27 +2,27 @@ body {
   background: #ecf0f3;
   position: relative; }
 
-.swiper-slide1 header {
+header {
   position: relative; }
-  .swiper-slide1 header img {
+  header img {
     width: 100%;
     height: 5.46rem; }
-  .swiper-slide1 header .english {
+  header .english {
     width: 0.77rem;
     height: 0.77rem;
     position: absolute;
     top: 17%;
     left: 5%; }
-  .swiper-slide1 header .sao {
+  header .sao {
     width: 0.86rem;
     height: 0.86rem;
     position: absolute;
     top: 17%;
     right: 5%; }
 
-.swiper-slide1 .banners {
+.banners {
   padding: 0.29rem; }
-  .swiper-slide1 .banners .banner {
+  .banners .banner {
     width: 10.25rem;
     height: 6.04rem;
     background: #fff;
@@ -31,20 +31,28 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
-    .swiper-slide1 .banners .banner h2 {
+    .banners .banner p {
+      margin-left: 3rem; }
+      .banners .banner p .tt {
+        width: 0.37rem;
+        height: 0.34rem; }
+      .banners .banner p b {
+        font: 0.3rem/1rem "";
+        color: #0287cc; }
+    .banners .banner h2 {
       font: 0.4rem/0.9rem "";
       color: #002358;
       width: 50%;
       height: 0.9rem;
       background: #d2e1e6;
       text-align: center; }
-    .swiper-slide1 .banners .banner .dan {
+    .banners .banner .dan {
       border-radius: 0.3rem 0 0 0;
       background: #fff;
       color: #0083cd; }
-    .swiper-slide1 .banners .banner .fu {
+    .banners .banner .fu {
       border-radius: 0 0.3rem 0 0; }
-    .swiper-slide1 .banners .banner input {
+    .banners .banner input {
       background: none;
       border: 0;
       outline: medium;
@@ -52,26 +60,26 @@ body {
       border-radius: 0.2rem;
       padding: 0.2rem;
       box-sizing: border-box; }
-    .swiper-slide1 .banners .banner input:nth-of-type(1) {
+    .banners .banner input:nth-of-type(1) {
       width: 4.14rem;
       height: 1.08rem;
       margin-left: 0.3rem; }
-    .swiper-slide1 .banners .banner .huan {
+    .banners .banner .huan {
       width: 0.75rem;
       height: 0.75rem;
       margin-top: 0.15rem; }
-    .swiper-slide1 .banners .banner input:nth-of-type(2) {
+    .banners .banner input:nth-of-type(2) {
       width: 4.14rem;
       height: 1.08rem;
       margin-right: 0.3rem; }
-    .swiper-slide1 .banners .banner input:nth-of-type(3) {
+    .banners .banner input:nth-of-type(3) {
       width: 4.74rem;
       height: 1.08rem;
       margin-left: 0.3rem;
       background: url("../images/t4.png") no-repeat;
       background-position: 3.8rem;
       background-size: 0.54rem 0.62rem; }
-    .swiper-slide1 .banners .banner input:nth-of-type(4) {
+    .banners .banner input:nth-of-type(4) {
       width: 4.74rem;
       height: 1.08rem;
       margin-right: 0.3rem;
@@ -79,11 +87,11 @@ body {
       background-position: 3.8rem;
       background-size: 0.54rem 0.62rem;
       opacity: 0; }
-    .swiper-slide1 .banners .banner input:nth-of-type(5) {
+    .banners .banner input:nth-of-type(5) {
       width: 3.7rem;
       height: 1.08rem;
       margin-left: 0.3rem; }
-    .swiper-slide1 .banners .banner h3 {
+    .banners .banner h3 {
       width: 5.72rem;
       height: 1.10rem;
       border-radius: 0.55rem;
@@ -93,21 +101,21 @@ body {
       color: #fff;
       text-align: center; }
 
-.swiper-slide1 .mains .main1 ul {
+.mains .main1 ul {
   background: #fff;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 0.05rem; }
-  .swiper-slide1 .mains .main1 ul li {
+  .mains .main1 ul li {
     width: 2.64rem;
     height: 2.14rem;
     text-align: center;
     position: relative; }
-    .swiper-slide1 .mains .main1 ul li img {
+    .mains .main1 ul li img {
       display: block;
       margin: auto; }
-    .swiper-slide1 .mains .main1 ul li span {
+    .mains .main1 ul li span {
       font: 0.4rem/0.96rem "";
       color: #494949;
       position: absolute;
@@ -115,204 +123,204 @@ body {
       left: 0;
       right: 0;
       margin: auto; }
-.swiper-slide1 .mains .main1 ul:nth-of-type(1) li:nth-of-type(1) {
+.mains .main1 ul:nth-of-type(1) li:nth-of-type(1) {
   width: 2.85rem; }
-  .swiper-slide1 .mains .main1 ul:nth-of-type(1) li:nth-of-type(1) img {
+  .mains .main1 ul:nth-of-type(1) li:nth-of-type(1) img {
     width: 0.82rem;
     height: 0.42rem;
     margin-top: 0.54rem; }
-.swiper-slide1 .mains .main1 ul:nth-of-type(1) li:nth-of-type(2) img {
+.mains .main1 ul:nth-of-type(1) li:nth-of-type(2) img {
   width: 0.55rem;
   height: 0.61rem;
   margin-top: 0.47rem; }
-.swiper-slide1 .mains .main1 ul:nth-of-type(1) li:nth-of-type(3) img {
+.mains .main1 ul:nth-of-type(1) li:nth-of-type(3) img {
   width: 0.85rem;
   height: 0.62rem;
   margin-top: 0.42rem; }
-.swiper-slide1 .mains .main1 ul:nth-of-type(1) li:nth-of-type(4) img {
+.mains .main1 ul:nth-of-type(1) li:nth-of-type(4) img {
   width: 0.84rem;
   height: 0.44rem;
   margin-top: 0.54rem; }
-.swiper-slide1 .mains .main1 ul:nth-of-type(2) li:nth-of-type(1) img {
+.mains .main1 ul:nth-of-type(2) li:nth-of-type(1) img {
   width: 0.59rem;
   height: 0.58rem;
   margin-top: 0.41rem; }
-.swiper-slide1 .mains .main1 ul:nth-of-type(2) li:nth-of-type(2) img {
+.mains .main1 ul:nth-of-type(2) li:nth-of-type(2) img {
   width: 0.82rem;
   height: 0.58rem;
   margin-top: 0.44rem; }
-.swiper-slide1 .mains .main1 ul:nth-of-type(2) li:nth-of-type(3) img {
+.mains .main1 ul:nth-of-type(2) li:nth-of-type(3) img {
   width: 0.76rem;
   height: 0.64rem;
   margin-top: 0.38rem; }
-.swiper-slide1 .mains .main1 ul:nth-of-type(2) li:nth-of-type(4) img {
+.mains .main1 ul:nth-of-type(2) li:nth-of-type(4) img {
   width: 0.38rem;
   height: 0.67rem;
   margin-top: 0.38rem; }
-.swiper-slide1 .mains .main2 {
+.mains .main2 {
   display: flex;
   justify-content: space-between;
   height: 2.76rem;
   background: #fff;
   margin-top: 0.3rem; }
-  .swiper-slide1 .mains .main2 .main2-l {
+  .mains .main2 .main2-l {
     width: 55%;
     background: url("../images/t16.png") no-repeat;
     background-size: 3.21rem 1.82rem;
     background-position: 1.9rem 1rem;
     margin-left: 0.62rem; }
-    .swiper-slide1 .mains .main2 .main2-l img {
+    .mains .main2 .main2-l img {
       display: block;
       width: 1.46rem;
       height: 0.4rem;
       margin-top: 0.2rem; }
-    .swiper-slide1 .mains .main2 .main2-l span {
+    .mains .main2 .main2-l span {
       font: 0.26rem/0.87rem "";
       color: #b7b7b7; }
-  .swiper-slide1 .mains .main2 .main2-r {
+  .mains .main2 .main2-r {
     width: 45%;
     background: url("../images/t17.png") no-repeat;
     background-size: 2.61rem 1.74rem;
     background-position: 1.9rem 1rem; }
-    .swiper-slide1 .mains .main2 .main2-r img {
+    .mains .main2 .main2-r img {
       display: block;
       width: 1.71rem;
       height: 0.45rem;
       margin-top: 0.2rem; }
-    .swiper-slide1 .mains .main2 .main2-r span {
+    .mains .main2 .main2-r span {
       font: 0.26rem/0.87rem "";
       color: #b7b7b7; }
 
-.swiper-slide1 .classify {
+.classify {
   padding-bottom: 1.8rem; }
-  .swiper-slide1 .classify .classify1 {
+  .classify .classify1 {
     margin-top: 0.3rem;
     background: #fff;
     padding-top: 0.36rem;
     position: relative; }
-    .swiper-slide1 .classify .classify1 h3 {
+    .classify .classify1 h3 {
       width: 0.15rem;
       height: 0.6rem;
       background: #63bddf; }
-    .swiper-slide1 .classify .classify1 span {
+    .classify .classify1 span {
       font-size: 0.48rem;
       color: #000;
       position: absolute;
       top: 0.37rem;
       left: 0.3rem; }
-    .swiper-slide1 .classify .classify1 img {
+    .classify .classify1 img {
       display: block;
       width: 95%;
       height: 2.54rem;
       margin: 0.35rem auto; }
-    .swiper-slide1 .classify .classify1 ul {
+    .classify .classify1 ul {
       display: flex;
       justify-content: space-between; }
-      .swiper-slide1 .classify .classify1 ul li {
+      .classify .classify1 ul li {
         width: 3rem;
         height: 3.02rem;
         box-shadow: 0 0 1px #000;
         margin: 0 0.3rem 0.33rem 0.3rem;
         padding-left: 0.2rem; }
-        .swiper-slide1 .classify .classify1 ul li h4 {
+        .classify .classify1 ul li h4 {
           font: 0.32rem/0.71rem "";
           color: #777777; }
-        .swiper-slide1 .classify .classify1 ul li b {
+        .classify .classify1 ul li b {
           font: 0.28rem/0.71rem "";
           color: #a1a1a1; }
-      .swiper-slide1 .classify .classify1 ul li:nth-of-type(1) {
+      .classify .classify1 ul li:nth-of-type(1) {
         background: url("../images/t19.png") no-repeat;
         background-size: 2.96rem 1.63rem;
         background-position: 0.2rem 1.4rem; }
-      .swiper-slide1 .classify .classify1 ul li:nth-of-type(2) {
+      .classify .classify1 ul li:nth-of-type(2) {
         background: url("../images/t20.png") no-repeat;
         background-size: 3.09rem 2.39rem;
         background-position: 0rem 0.6rem; }
-      .swiper-slide1 .classify .classify1 ul li:nth-of-type(3) {
+      .classify .classify1 ul li:nth-of-type(3) {
         background: url("../images/t21.png") no-repeat;
         background-size: 3.09rem 2.39rem;
         background-position: 0rem 0.7rem; }
-  .swiper-slide1 .classify .classify2 {
+  .classify .classify2 {
     margin-top: 0.3rem;
     background: #fff;
     padding-top: 0.36rem;
     position: relative; }
-    .swiper-slide1 .classify .classify2 h3 {
+    .classify .classify2 h3 {
       width: 0.15rem;
       height: 0.6rem;
       background: #f7a22b; }
-    .swiper-slide1 .classify .classify2 span {
+    .classify .classify2 span {
       font-size: 0.48rem;
       color: #000;
       position: absolute;
       top: 0.37rem;
       left: 0.3rem; }
-    .swiper-slide1 .classify .classify2 img {
+    .classify .classify2 img {
       display: block;
       width: 95%;
       height: 2.54rem;
       margin: 0.35rem auto; }
-    .swiper-slide1 .classify .classify2 ul {
+    .classify .classify2 ul {
       display: flex;
       justify-content: space-between; }
-      .swiper-slide1 .classify .classify2 ul li {
+      .classify .classify2 ul li {
         width: 3rem;
         height: 3.02rem;
         box-shadow: 0 0 1px #000;
         margin: 0 0.3rem 0.33rem 0.3rem;
         padding-left: 0.2rem; }
-        .swiper-slide1 .classify .classify2 ul li h4 {
+        .classify .classify2 ul li h4 {
           font: 0.32rem/0.71rem "";
           color: #777777; }
-        .swiper-slide1 .classify .classify2 ul li b {
+        .classify .classify2 ul li b {
           font: 0.28rem/0.71rem "";
           color: #a1a1a1; }
-      .swiper-slide1 .classify .classify2 ul li:nth-of-type(1) {
+      .classify .classify2 ul li:nth-of-type(1) {
         background: url("../images/t23.png") no-repeat;
         background-size: 3.18rem 1.55rem;
         background-position: 0rem 1.51rem; }
-      .swiper-slide1 .classify .classify2 ul li:nth-of-type(2) {
+      .classify .classify2 ul li:nth-of-type(2) {
         background: url("../images/t24.png") no-repeat;
         background-size: 3.20rem 1.98rem;
         background-position: 0rem 1.1rem; }
-      .swiper-slide1 .classify .classify2 ul li:nth-of-type(3) {
+      .classify .classify2 ul li:nth-of-type(3) {
         background: url("../images/t25.png") no-repeat;
         background-size: 3.20rem 2.02rem;
         background-position: 0rem 1.1rem; }
-  .swiper-slide1 .classify .classify3 {
+  .classify .classify3 {
     margin: 0.3rem 0;
     background: #fff;
     padding-top: 0.36rem;
     position: relative; }
-    .swiper-slide1 .classify .classify3 h3 {
+    .classify .classify3 h3 {
       width: 0.15rem;
       height: 0.6rem;
       background: #a4c97b; }
-    .swiper-slide1 .classify .classify3 span {
+    .classify .classify3 span {
       font-size: 0.48rem;
       color: #000;
       position: absolute;
       top: 0.37rem;
       left: 0.3rem; }
-    .swiper-slide1 .classify .classify3 .classify3-b {
+    .classify .classify3 .classify3-b {
       display: flex;
       justify-content: space-between;
       padding: 0.3rem; }
-      .swiper-slide1 .classify .classify3 .classify3-b .classify3-b-l {
+      .classify .classify3 .classify3-b .classify3-b-l {
         position: relative;
         border: 1px solid #eaeaea; }
-        .swiper-slide1 .classify .classify3 .classify3-b .classify3-b-l p {
+        .classify .classify3 .classify3-b .classify3-b-l p {
           overflow: hidden; }
-          .swiper-slide1 .classify .classify3 .classify3-b .classify3-b-l p img {
+          .classify .classify3 .classify3-b .classify3-b-l p img {
             width: 4.75rem;
             height: 5.12rem; }
-        .swiper-slide1 .classify .classify3 .classify3-b .classify3-b-l .bao {
+        .classify .classify3 .classify3-b .classify3-b-l .bao {
           width: 1.8rem;
           height: 0.96rem;
           position: absolute;
           left: -0.15rem;
           top: 0; }
-        .swiper-slide1 .classify .classify3 .classify3-b .classify3-b-l h5 {
+        .classify .classify3 .classify3-b .classify3-b-l h5 {
           padding-left: 0.3rem;
           box-sizing: border-box;
           height: 0.7rem;
@@ -324,58 +332,52 @@ body {
           color: #fff;
           background: #003832;
           opacity: 0.5; }
-        .swiper-slide1 .classify .classify3 .classify3-b .classify3-b-l s {
+        .classify .classify3 .classify3-b .classify3-b-l s {
           font: 0.3rem/0.95rem "";
           color: #de0029;
           margin-left: 0.3rem; }
-        .swiper-slide1 .classify .classify3 .classify3-b .classify3-b-l b {
+        .classify .classify3 .classify3-b .classify3-b-l b {
           font: 0.3rem/0.95rem "";
           color: #333;
           margin-left: 0.1rem; }
-      .swiper-slide1 .classify .classify3 .classify3-b ul {
+      .classify .classify3 .classify3-b ul {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         margin-left: 3%; }
-        .swiper-slide1 .classify .classify3 .classify3-b ul li {
+        .classify .classify3 .classify3-b ul li {
           border: 1px solid #eaeaea; }
-        .swiper-slide1 .classify .classify3 .classify3-b ul li:nth-of-type(1) {
+        .classify .classify3 .classify3-b ul li:nth-of-type(1) {
           height: 2.45rem; }
-          .swiper-slide1 .classify .classify3 .classify3-b ul li:nth-of-type(1) img {
+          .classify .classify3 .classify3-b ul li:nth-of-type(1) img {
             width: 5.1rem;
             height: 2.45rem;
             display: block; }
-        .swiper-slide1 .classify .classify3 .classify3-b ul li:nth-of-type(2) {
+        .classify .classify3 .classify3-b ul li:nth-of-type(2) {
           height: 3.18rem;
           margin-top: 0.4rem; }
-          .swiper-slide1 .classify .classify3 .classify3-b ul li:nth-of-type(2) img {
+          .classify .classify3 .classify3-b ul li:nth-of-type(2) img {
             width: 2.43rem;
             height: 3.18rem; }
-        .swiper-slide1 .classify .classify3 .classify3-b ul li:nth-of-type(3) {
+        .classify .classify3 .classify3-b ul li:nth-of-type(3) {
           margin-top: 0.4rem;
           height: 3.18rem; }
-          .swiper-slide1 .classify .classify3 .classify3-b ul li:nth-of-type(3) img {
+          .classify .classify3 .classify3-b ul li:nth-of-type(3) img {
             width: 2.43rem;
             height: 3.18rem; }
-
-.swiper-slide2 {
-  height: 12.5rem;
-  background: url("../images/t36.png") no-repeat;
-  background-size: 100% 12.15rem; }
-  .swiper-slide2 .lishi {
-    background: #ecfcfc; }
 
 footer {
   position: fixed;
   padding-bottom: 0.2rem;
   background: #fff;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  width: 100%; }
   footer ul {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin: 0 0.5rem; }
     footer ul li {
-      width: 2.16rem;
       text-align: center; }
       footer ul li img {
         width: 0.67rem;

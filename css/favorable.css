@@ -1,0 +1,166 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #0fa8ec; }
+  header a img {
+    width: 0.36rem;
+    height: 0.64rem;
+    margin: 0.58rem 0 0 0.45rem; }
+  header img {
+    width: 0.92rem;
+    height: 0.74rem;
+    margin: 0.45rem 0.45rem 0 0; }
+  header h1 {
+    font: 0.42rem/1.86rem "";
+    color: #fff; }
+
+.banner {
+  text-align: center; }
+  .banner img:nth-of-type(1) {
+    width: 6.56rem;
+    height: 1.22rem;
+    margin: 0.32rem 0; }
+  .banner img:nth-of-type(2) {
+    width: 100%;
+    height: 7.6rem; }
+  .banner .banner1 {
+    background: #f4f7e4;
+    padding: 0.46rem 0; }
+    .banner .banner1 p:nth-of-type(1) {
+      font: 0.5rem/0.78rem "";
+      color: #5293bb;
+      margin-bottom: 0.9rem; }
+    .banner .banner1 p:nth-of-type(2) {
+      width: 7.3rem;
+      height: 1.96rem;
+      border: 1px solid #91a544;
+      font: 0.44rem/0.55rem "";
+      color: #91a544;
+      margin: auto;
+      padding: 0.38rem 0.54rem;
+      box-sizing: border-box; }
+      .banner .banner1 p:nth-of-type(2) img {
+        width: 0.42rem;
+        height: 0.47rem;
+        margin: -0.1rem 0.2rem 0 0; }
+      .banner .banner1 p:nth-of-type(2) span {
+        margin-top: 0.2rem; }
+
+.jipiao {
+  background: #90a836;
+  border-top: 1px solid #3882e3; }
+  .jipiao ul:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.32rem 0.68rem 0.32rem 0.24rem; }
+    .jipiao ul:nth-of-type(1) li {
+      width: 1.36rem;
+      height: 0.92rem;
+      font: 0.38rem/0.92rem "";
+      text-align: center;
+      color: #fff; }
+    .jipiao ul:nth-of-type(1) li:nth-of-type(1) {
+      background: #e7ee22;
+      color: #000; }
+    .jipiao ul:nth-of-type(1) li:hover {
+      background: #e7ee22;
+      color: #000; }
+  .jipiao ul:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0.1rem; }
+    .jipiao ul:nth-of-type(2) li {
+      width: 49.6%;
+      height: 1.82rem;
+      font: 0.38rem/0.92rem "";
+      background: #fff;
+      margin-bottom: 0.1rem;
+      padding-left: 0.22rem;
+      box-sizing: border-box;
+      position: relative; }
+      .jipiao ul:nth-of-type(2) li .tu {
+        width: 1.10rem;
+        height: 0.58rem;
+        position: absolute;
+        right: 0.2rem;
+        bottom: 0.2rem; }
+      .jipiao ul:nth-of-type(2) li p {
+        font: 0.38rem/0.76rem "";
+        color: #353535;
+        margin-bottom: 0.3rem; }
+        .jipiao ul:nth-of-type(2) li p img {
+          width: 0.43rem;
+          height: 0.14rem; }
+      .jipiao ul:nth-of-type(2) li span {
+        font: 0.38rem/0.74rem "";
+        color: #646464; }
+        .jipiao ul:nth-of-type(2) li span b {
+          font: 0.6rem/0.74rem "";
+          margin: 0 0.1rem;
+          color: #f8bc00; }
+  .jipiao h5 {
+    font: 0.24rem/0.54rem "";
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.2rem;
+    width: 3.8rem;
+    height: 0.54rem;
+    margin: 0.32rem auto; }
+  .jipiao .bt {
+    font: 0.38rem/0.56rem "";
+    color: #668132;
+    background: #f4f7e4;
+    padding: 0.18rem 0.1rem 0.64rem 0.2rem;
+    text-align: center; }
+
+.main {
+  background: #e6eff4;
+  padding: 0.52rem 0.34rem 0 0.34rem;
+  text-align: center; }
+  .main .tu1 {
+    width: 10.12rem;
+    height: 3.31rem;
+    margin-left: -0.2rem;
+    margin-bottom: 0.58rem;
+    margin-top: 0; }
+  .main .tu2 {
+    width: 9.61rem;
+    height: 3.02rem;
+    margin: 0 0 0.58rem 0; }
+  .main .tu3 {
+    width: 9.61rem;
+    height: 3.47rem;
+    margin: 0 0 0.1rem 0; }
+  .main p {
+    font: 0.5rem/0.7rem "";
+    color: #498cb6;
+    margin-bottom: 0.96rem; }
+  .main img {
+    width: 3.65rem;
+    height: 1.31rem;
+    margin: 0rem 0 0.40rem 0; }
+  .main img:nth-of-type(5) {
+    width: 4.9rem;
+    height: 0.96rem; }
+  .main ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .main ul li {
+      width: 4.84rem;
+      margin-bottom: 0.8rem; }
+      .main ul li img {
+        width: 4.84rem;
+        height: 3.97rem;
+        margin: 0 0 0.3rem 0; }
+      .main ul li span {
+        color: #59a8b5; }
+
+footer {
+  font: 0.36rem/1.02rem "";
+  color: #d9dbda;
+  text-align: center; }
+
+/*# sourceMappingURL=favorable.css.map */

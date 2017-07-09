@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82b9d7e5-73ec-4639-b53a-3d6f2fd6a901" name="rr" url="http://10.35.164.10:80">
+        <fileTransfer mountedRoot="d:\phpStudy\WWW\Meituan" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

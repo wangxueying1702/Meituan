@@ -1,0 +1,91 @@
+body {
+  position: relative; }
+
+header {
+  background: #0fa8eb; }
+  header p {
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font: 0.5rem/1.54rem "";
+    color: #fff; }
+  header b {
+    position: absolute;
+    top: 0.05rem;
+    right: 0.3rem; }
+  header .header-l {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.28rem 0; }
+    header .header-l img:nth-of-type(1) {
+      width: 1.80rem;
+      height: 1.80rem;
+      margin-left: 0.45rem; }
+    header .header-l img:nth-of-type(2) {
+      width: 0.34rem;
+      height: 0.58rem;
+      margin-right: 0.3rem;
+      margin-top: 0.5rem; }
+    header .header-l .header-l-c {
+      margin-right: 3.5rem;
+      margin-top: 0.2rem; }
+      header .header-l .header-l-c span {
+        font: 0.62rem/0.7rem "";
+        color: #fff; }
+      header .header-l .header-l-c s {
+        font: 0.5rem/0.7rem "";
+        color: #fff; }
+
+.main {
+  margin-left: 0.48rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.9rem; }
+  .main img {
+    margin: 0.5rem 0;
+    width: 0.85rem;
+    height: 0.92rem; }
+  .main .main-r {
+    width: 88%;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative; }
+    .main .main-r img {
+      width: 0.37rem;
+      height: 0.62rem;
+      position: absolute;
+      right: 0.4rem;
+      top: 0.3rem; }
+    .main .main-r p {
+      margin-top: 0.28rem; }
+      .main .main-r p span {
+        font: 0.5rem/0.9rem "";
+        color: #000; }
+      .main .main-r p s {
+        font: 0.38rem/0.4rem "";
+        color: #959595; }
+
+footer {
+  position: fixed;
+  padding-bottom: 0.2rem;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.5rem; }
+    footer ul li {
+      text-align: center; }
+      footer ul li img {
+        width: 0.67rem;
+        height: 0.67rem;
+        display: block;
+        margin: 0.22rem auto; }
+      footer ul li span {
+        font-size: 0.3rem;
+        color: #909090; }
+    footer ul li:nth-of-type(5) span {
+      color: #15a6e5; }
+
+/*# sourceMappingURL=My.css.map */

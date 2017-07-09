@@ -1,0 +1,224 @@
+@charset "UTF-8";
+body{background: url("../images/t43.png");position: relative}
+header{
+  text-align: center;
+  h1{
+    font:0.52rem/2.06rem "黑体";
+    color:#fff;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+  img{
+    width: 0.62rem;
+    height: 0.62rem;
+    margin: 0.2rem;
+  }
+  span{
+    font:0.4rem/0.4rem "";
+    color:#fff;
+    margin-right: 0.8rem;
+  }
+}
+.main1{
+  display: none;
+  text-align: center;
+  h3{
+    font:0.4rem/1.2rem "";
+    color: #fff;
+    margin-top: 5rem;
+  }
+}
+.main{
+  background: #fff;
+  width: 85%;
+  border-radius: 0.2rem;
+  margin: 0 auto;
+  margin-top:0.8rem;
+  margin-bottom: 1.56rem;
+  text-align: center;
+  padding-top: 0.84rem;
+  img{
+    width: 0.60rem;
+    height: 0.6rem;
+    margin:-0.4rem 0.2rem;
+  }
+  span{
+    font:0.4rem/0.4rem "";
+    color:#0189c7;
+    margin-right: 0.8rem;
+  }
+  .mn{
+    margin: 0.6rem 0.56rem;
+    text-align: left;
+    padding-bottom: 0.6rem;
+    h5{
+      font:0.35rem/0.7rem "";
+      color:#062858;
+      margin-left: 1rem;
+    }
+    input{
+      background: none;
+      border:0;
+      outline:medium;
+      width: 5.75rem;
+      height: 1.06rem;
+      border-bottom: 1px solid #747474;
+      margin-bottom: 1rem;
+      color:#028bc1;
+      font-size: 0.54rem;
+
+    }
+    input:nth-of-type(2)::-webkit-input-placeholder { /* WebKit browsers */
+      color: #bc1648;
+    }
+    input:nth-of-type(2):-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: #bc1648;
+    }
+    input:nth-of-type(2)::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: #bc1648;
+    }
+    input:nth-of-type(2):-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: #bc1648;
+    }
+    ::-webkit-input-placeholder { /* WebKit browsers */
+      color: #028bc1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: #028bc1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: #028bc1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: #028bc1;
+    }
+    input:nth-of-type(2){
+      color:#bc1648;
+    }
+    img{
+      width: 0.92rem;
+      height: 0.85rem;
+    }
+    .img3{
+      width: 0.52rem;
+      height: 0.52rem;
+      margin:0.95rem 0 0 0;
+    }
+    b{
+      font-size:0.32rem;
+      margin-left: 1.2rem;
+      color: #989898;
+    }
+    h6{
+      width:4.37rem ;
+      height:1.1rem ;
+      text-align: center;
+      background: #d5d4d2;
+      color: #ededed;
+      font:0.48rem/1.1rem "";
+      margin: 0 auto;
+      margin-top: 0.6rem;
+    }
+
+  }
+  .mn1{
+    display: none;
+    margin: 0.6rem 0.56rem;
+    text-align: left;
+    padding-bottom: 0.6rem;
+    h5{
+      font:0.35rem/0.7rem "";
+      color:#062858;
+      margin-left: 1rem;
+    }
+    input{
+      background: none;
+      border:0;
+      outline:medium;
+      width: 5.75rem;
+      height: 1.06rem;
+      border-bottom: 1px solid #747474;
+      margin-bottom: 1rem;
+      color:#028bc1;
+      font-size: 0.54rem;
+
+    }
+    input:nth-of-type(1)::-webkit-input-placeholder { /* WebKit browsers */
+      color: #bc1648;
+    }
+    input:nth-of-type(1):-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: #bc1648;
+    }
+    input:nth-of-type(1)::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: #bc1648;
+    }
+    input:nth-of-type(1):-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: #bc1648;
+    }
+    ::-webkit-input-placeholder { /* WebKit browsers */
+      color: #028bc1;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: #028bc1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: #028bc1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: #028bc1;
+    }
+    input:nth-of-type(1){
+      color:#bc1648;
+    }
+    img{
+      width: 0.92rem;
+      height: 0.85rem;
+    }
+    b{
+      font-size:0.32rem;
+      margin-left: 1.2rem;
+      color: #989898;
+    }
+    h6{
+      width:4.37rem ;
+      height:1.1rem ;
+      text-align: center;
+      background: red;
+      color: #ededed;
+      font:0.48rem/1.1rem "";
+      margin: 0 auto;
+      margin-top: 0.6rem;
+    }
+
+  }
+}
+footer{
+  position:fixed;
+  padding-bottom: 0.2rem;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    border-radius:0 0 0.2rem 0.2rem;
+    li{
+      text-align: center;
+      img{
+        width: 0.67rem;
+        height: 0.67rem;
+        display: block;
+        margin: 0.22rem auto;
+      }
+      span{
+        font-size: 0.3rem;
+        color:#909090;
+      }
+    }
+    li:nth-of-type(4) span{
+      color:#15a6e5;
+    }
+  }
+}

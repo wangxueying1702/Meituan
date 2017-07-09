@@ -3,7 +3,7 @@ body{
   background: #ecf0f3;
   position: relative;
 }
-.swiper-slide1 header{
+header{
   position: relative;
     img{
       width: 100%;
@@ -24,7 +24,7 @@ body{
     right:5%;
   }
 }
-.swiper-slide1 .banners{
+.banners{
   padding: 0.29rem;
   .banner{
     width: 10.25rem;
@@ -35,6 +35,18 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    p{
+      margin-left:3rem;
+      .tt{
+        width: 0.37rem;
+        height: 0.34rem;
+      }
+      b{
+        font:0.3rem/1rem "";
+        color:#0287cc;
+      }
+    }
+
     h2{
       font:0.4rem/0.9rem "";
       color:#002358;
@@ -109,7 +121,7 @@ body{
     }
   }
 }
-.swiper-slide1 .mains{
+.mains{
   .main1{
     ul{
       background: #fff;
@@ -241,7 +253,7 @@ body{
 
   }
 }
-.swiper-slide1 .classify{
+.classify{
   padding-bottom: 1.8rem;
   .classify1 {
     margin-top: 0.3rem;
@@ -457,32 +469,18 @@ body{
     }
   }
 }
-.swiper-slide2{
-  height: 12.5rem;
-  background:url("../images/t36.png") no-repeat;
-  background-size:100% 12.15rem;
-  .lishi{
-    background: #ecfcfc;
-    h5{
-      
-    }
-  }
-}
-
-
-
-
 footer{
   position:fixed;
   padding-bottom: 0.2rem;
   background: #fff;
   bottom: 0;
   left: 0;
+  width: 100%;
   ul{
     display: flex;
     justify-content: space-between;
+    margin: 0 0.5rem;
     li{
-      width: 2.16rem;
       text-align: center;
       img{
         width: 0.67rem;

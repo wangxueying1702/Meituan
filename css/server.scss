@@ -1,0 +1,142 @@
+@charset "UTF-8";
+body{background: url("../images/t43.png");  margin: 0 0.3rem;position: relative}
+header{
+  text-align: center;
+  position: relative;
+  h1{
+    font:0.52rem/2.06rem "黑体";
+    color:#fff;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+  input{
+    background: none;
+    border:0;
+    outline:medium;
+    border-radius: 0.2rem;
+    padding-left: 1.1rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.3rem;
+    background: #4c698b;
+    color:#fff;
+    font:700 0.4rem/1.3rem "黑体";
+  }
+  img{
+    width: 0.53rem;
+    height: 0.53rem;
+    position: absolute;
+    top:2.4rem;
+    left:0.5rem
+  }
+}
+.reserve{
+  background: #fff;
+  border-radius: 0.2rem;
+  text-align: center;
+  margin-top: 1.1rem;
+  h3{
+    font:0.4rem/1.38rem "";
+    color:#062252;
+  }
+  ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li{
+      width: 24.6%;
+      height: 2.68rem;
+      border-top: 1px solid #d4d3d1;
+      border-right:1px solid #d4d3d1;
+      position: relative;
+      img{
+        //width: 20%;
+        //height: 25%;
+        display: block;
+        margin: 0.5rem auto;
+      }
+      span{
+        font:0.34rem/0.35rem "";
+        position: absolute;
+        bottom: 0.5rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+  }
+
+}
+.manage{
+  background: #fff;
+  border-radius: 0.2rem;
+  text-align: center;
+  margin-top: 1.1rem;
+  margin-bottom:2.3rem;
+  h3{
+    font:0.4rem/1.38rem "";
+    color:#062252;
+  }
+  ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius:0 0 0.2rem 0.2rem;
+    li{
+      width: 24.6%;
+      height: 2.68rem;
+      border-top: 1px solid #d4d3d1;
+      border-right:1px solid #d4d3d1;
+      position: relative;
+      img{
+        //width: 20%;
+        //height: 25%;
+        display: block;
+        margin: 0.5rem auto;
+      }
+      span{
+        font:0.34rem/0.35rem "";
+        position: absolute;
+        bottom: 0.5rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+  }
+
+}
+
+
+footer{
+  position:fixed;
+  padding-bottom: 0.2rem;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    border-radius:0 0 0.2rem 0.2rem;
+    li{
+      text-align: center;
+      img{
+        width: 0.67rem;
+        height: 0.67rem;
+        display: block;
+        margin: 0.22rem auto;
+      }
+      span{
+        font-size: 0.3rem;
+        color:#909090;
+      }
+    }
+    li:nth-of-type(3) span{
+      color:#15a6e5;
+    }
+  }
+}

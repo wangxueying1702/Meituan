@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/Dynamic.css">
+</head>
+<body>
+<header>
+    <h1>航班动态</h1>
+    <img src="images/t63.png" id="xuan"/><span>当前</span>
+    <img src="images/t64.png" id="buxuan"/><span>历史</span>
+</header>
+<section class="main">
+    <img src="images/t65.png" id="xuan1"/><span>按起降地</span>
+    <img src="images/t66.png" id="buxuan1"/><span>按航班号</span>
+    <div class="mn">
+        <h5>出发城市</h5>
+        <img src="images/t59.png" class="img1"/>
+        <input type="text" class="img2" placeholder="西安" />
+        <img src="images/t67.png" class="img3"/>
+        <img src="images/t60.png" class="img4"/>
+        <input type="text" class="img5" placeholder="到达城市" />
+        <img src="images/t61.png" class="img6"/>
+        <input type="text" class="img7" placeholder="2017年7月6日今天" /><br/>
+        <b>*起飞时间为当地时间</b>
+        <h6>开始查询</h6>
+    </div>
+    <div class="mn1">
+        <h5>请输入航班号，如3110</h5>
+        <img src="images/t60.png" class="img4"/>
+        <input type="text" class="img5" placeholder="CD" />
+        <img src="images/t61.png" class="img6"/>
+        <input type="text" class="img7" placeholder="2017年7月6日今天" /><br/>
+        <b>*起飞时间为当地时间</b>
+        <h6>开始查询</h6>
+    </div>
+</section>
+<section class="main1">
+    <h3>您当前无历史关注记录哦~</h3>
+</section>
+
+<footer>
+    <ul>
+        <li><a href="index.html"><img src="images/t41.png"/><span>首页</span></a></li>
+        <li><a href="schedule.html"><img src="images/t32.png"/><span>行程</span></a></li>
+        <li><a href="server.html"><img src="images/t33.png"/><span>服务大厅</span></a></li>
+        <li><a href="Dynamic.html"><img src="images/t62.png"/><span>航班动态</span></a></li>
+        <li><a href="My.html"><img src="images/t35.png"/><span>我</span></a></li>
+    </ul>
+</footer>
+</body>
+</html>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+    $(function(){
+        $("#xuan").click(function(){
+            $(this).attr({src:"images/t63.png"});
+            $("#buxuan").attr({src:"images/t64.png"});
+            $(".main").css({"display":"block"})
+            $(".main1").css({"display":"none"})
+        })
+        $("#buxuan").click(function(){
+            $(this).attr({src:"images/t63.png"});
+            $("#xuan").attr({src:"images/t64.png"});
+            $(".main1").css({"display":"block"})
+            $(".main").css({"display":"none"})
+        })
+        $("#xuan1").click(function(){
+            $(this).attr({src:"images/t65.png"});
+            $("#buxuan1").attr({src:"images/t66.png"});
+            $(this).siblings(".mn").css({"display":"block"});
+            $(this).siblings(".mn1").css({"display":"none"});
+        })
+        $("#buxuan1").click(function(){
+            $(this).attr({src:"images/t65.png"});
+            $("#xuan1").attr({src:"images/t66.png"});
+            $(this).siblings(".mn1").css({"display":"block"});
+            $(this).siblings(".mn").css({"display":"none"});
+        })
+    })
+</script>
