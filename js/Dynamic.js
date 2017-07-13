@@ -1,0 +1,26 @@
+$(function(){
+    $("#xuan").click(function(){
+        $(this).attr({src:"images/t63.png"});
+        $("#buxuan").attr({src:"images/t64.png"});
+        $(".main").css({"display":"block"})
+        $(".main1").css({"display":"none"})
+    })
+    $("#buxuan").click(function(){
+        $(this).attr({src:"images/t63.png"});
+        $("#xuan").attr({src:"images/t64.png"});
+        $(".main1").css({"display":"block"})
+        $(".main").css({"display":"none"})
+    })
+    $("#xuan1").click(function(){
+        $(this).attr({src:"images/t65.png"});
+        $("#buxuan1").attr({src:"images/t66.png"});
+        $(this).siblings(".mn").css({"display":"block"});
+        $(this).siblings(".mn1").css({"display":"none"});
+    })
+    $("#buxuan1").click(function(){
+        $(this).attr({src:"images/t65.png"});
+        $("#xuan1").attr({src:"images/t66.png"});
+        $(this).siblings(".mn1").css({"display":"block"});
+        $(this).siblings(".mn").css({"display":"none"});
+    })
+})

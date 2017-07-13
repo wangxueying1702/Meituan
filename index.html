@@ -2,18 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="js/common.js"></script>
     <link rel="stylesheet" href="css/public.css">
+    <link rel='stylesheet' href='css/swiper.css' />
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
-        <img src="images/banne1.jpg"/>
-        <img src="images/t1.png" class="english"/>
-        <img src="images/t2.png" class="sao"/>
+<!--首页头部（轮播图样式）-->
+    <header class="main">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/banne1.jpg"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banne2.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banne3.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banne4.png"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banne5.png"/>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+            <img src="images/t1.png" class="english"/>
+            <img src="images/t2.png"  class="sao"/>
     </header>
+<!--机票查询-->
     <section class="banners">
         <div class="banner">
             <h2 class="dan">单程</h2>
@@ -28,10 +50,10 @@
             <p><img src="images/t5.png" class="tt"/>
                 <b>价格保障，买贵全赔</b>
             </p>
-
         </div>
     </section>
     <section class="mains">
+        <!--相关业务办理-->
         <div class="main1">
             <ul>
                 <li><img src="images/t6.png"/><span>选择&办登机牌</span></li>
@@ -46,6 +68,7 @@
                 <li><img src="images/t13.png"/><span>额外行李购买</span></li>
             </ul>
         </div>
+        <!--活动-->
         <div class="main2">
             <div class="main2-l">
                 <img src="images/t14.png"/>
@@ -57,17 +80,20 @@
             </div>
         </div>
     </section>
+<!--南航各项优惠活动-->
     <section class="classify">
+        <!--热门活动-->
         <div class="classify1">
             <h3></h3>
             <span>热门活动</span>
             <img src="images/t18.png"/>
             <ul>
                 <li><h4>出境特惠</h4><b>轻松出行 玩遍全球</b></li>
-                <li><h4>本周推荐</h4><b>旅行套餐尾单</b></li>
+                <li><a href="recommend.html"><h4>本周推荐</h4><b>旅行套餐尾单</b></a></li>
                 <li><h4>广州中转</h4><b>免费住星级酒店</b></li>
             </ul>
         </div>
+        <!--专属权益-->
         <div class="classify2">
             <h3></h3>
             <span>专属权益</span>
@@ -78,6 +104,7 @@
                 <li><h4>提前选座</h4><b>舒适旅行</b></li>
             </ul>
         </div>
+        <!--旅游度假-->
         <div class="classify3">
             <h3></h3>
             <span>旅游度假</span>
@@ -98,6 +125,7 @@
             </div>
         </div>
     </section>
+<!--页脚导航-->
     <footer>
         <ul>
             <li><a href="index.html"><img src="images/t31.png"/><span>首页</span></a></li>
@@ -111,17 +139,5 @@
 </body>
 </html>
 <script src="js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript">
-    $(function(){
-        $(".fu").click(function(){
-            $("#chu").css({"opacity":1});
-            $(".fu").css({"background":"#fff","color":"#0083cd"});
-            $(".dan").css({"background":"#d2e1e6","color":"#002358"})
-        })
-        $(".dan").click(function(){
-            $("#chu").css({"opacity":0});
-            $(".fu").css({"background":"#d2e1e6","color":"#002358"});
-            $(".dan").css({"background":"#fff","color":"#0083cd"})
-        })
-    })
-</script>
+<script src="js/swiper.js"></script>
+<script type="text/javascript" src="js/index.js"></script>

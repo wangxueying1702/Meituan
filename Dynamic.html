@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Server</title>
+    <title>Dynamic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="js/common.js"></script>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/Dynamic.css">
 </head>
 <body>
+<!--航班动态页面头部-->
 <header>
     <h1>航班动态</h1>
     <img src="images/t63.png" id="xuan"/><span>当前</span>
     <img src="images/t64.png" id="buxuan"/><span>历史</span>
 </header>
+<!--当前航班动态查询-->
 <section class="main">
     <img src="images/t65.png" id="xuan1"/><span>按起降地</span>
     <img src="images/t66.png" id="buxuan1"/><span>按航班号</span>
+    <!--按起降地查询-->
     <div class="mn">
         <h5>出发城市</h5>
         <img src="images/t59.png" class="img1"/>
@@ -29,6 +32,7 @@
         <b>*起飞时间为当地时间</b>
         <h6>开始查询</h6>
     </div>
+    <!--按航班号查询-->
     <div class="mn1">
         <h5>请输入航班号，如3110</h5>
         <img src="images/t60.png" class="img4"/>
@@ -39,10 +43,11 @@
         <h6>开始查询</h6>
     </div>
 </section>
+<!--历史航班查询-->
 <section class="main1">
     <h3>您当前无历史关注记录哦~</h3>
 </section>
-
+<!--页面页脚-->
 <footer>
     <ul>
         <li><a href="index.html"><img src="images/t41.png"/><span>首页</span></a></li>
@@ -55,31 +60,4 @@
 </body>
 </html>
 <script src="js/jquery-1.8.3.min.js"></script>
-<script>
-    $(function(){
-        $("#xuan").click(function(){
-            $(this).attr({src:"images/t63.png"});
-            $("#buxuan").attr({src:"images/t64.png"});
-            $(".main").css({"display":"block"})
-            $(".main1").css({"display":"none"})
-        })
-        $("#buxuan").click(function(){
-            $(this).attr({src:"images/t63.png"});
-            $("#xuan").attr({src:"images/t64.png"});
-            $(".main1").css({"display":"block"})
-            $(".main").css({"display":"none"})
-        })
-        $("#xuan1").click(function(){
-            $(this).attr({src:"images/t65.png"});
-            $("#buxuan1").attr({src:"images/t66.png"});
-            $(this).siblings(".mn").css({"display":"block"});
-            $(this).siblings(".mn1").css({"display":"none"});
-        })
-        $("#buxuan1").click(function(){
-            $(this).attr({src:"images/t65.png"});
-            $("#xuan1").attr({src:"images/t66.png"});
-            $(this).siblings(".mn1").css({"display":"block"});
-            $(this).siblings(".mn").css({"display":"none"});
-        })
-    })
-</script>
+<script src="js/Dynamic.js"></script>

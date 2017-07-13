@@ -2,7 +2,12 @@ body {
   position: relative; }
 
 header {
-  background: #0fa8eb; }
+  background: #0fa8eb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 111;
+  width: 100%; }
   header p {
     border-bottom: 1px solid #fff;
     text-align: center;
@@ -36,6 +41,7 @@ header {
         color: #fff; }
 
 .main {
+  margin-top: 3.84rem;
   margin-left: 0.48rem;
   display: flex;
   justify-content: space-between;

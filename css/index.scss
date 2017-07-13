@@ -15,6 +15,7 @@ header{
       position: absolute;
       top:17%;
       left:5%;
+      z-index: 1;
     }
   .sao{
     width: 0.86rem;
@@ -22,6 +23,7 @@ header{
     position: absolute;
     top:17%;
     right:5%;
+    z-index: 1;
   }
 }
 .banners{

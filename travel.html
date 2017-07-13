@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>travel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="js/common.js"></script>
     <link rel="stylesheet" href="css/public.css">
+    <link rel='stylesheet' href='css/swiper.css' />
     <link rel="stylesheet" href="css/travel.css">
 </head>
 <body>
+<!--旅游度假页面Header-->
 <header>
     <div class="header-t">
         <a href="index.html"><img src="images/t87.png"/></a>
         <h1>旅游度假</h1>
         <img src="images/t88.png"/>
     </div>
+    <!--相关信息搜索-->
     <div class="header-b">
         <select>
             <option>西安出发</option>
@@ -26,24 +29,44 @@
     </div>
 </header>
 <section class="banner">
-    <img src="images/t86.png"/>
+    <!--轮播图展示特色旅游-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                 <img src="images/t86.png"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/banne3.png"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/banne4.png"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/banne5.png"/>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--旅游各项业务模块-->
     <ul>
         <li><img src="images/t115.png"/> <span>自由行</span></li>
         <li><img src="images/t116.png"/> <span>酒店</span></li>
         <li><img src="images/t117.png"/> <span>签证</span></li>
         <li><img src="images/t118.png"/> <span>更多</span></li>
     </ul>
+    <!--特色旅游推荐-->
     <div class="banner-t">
         <h3><img src="images/t119.png"/>去抢购 </h3>
         <div class="banner-t-l">
             <img src="images/t120.png"/>
             <p>
-                <span>【河内】深圳直飞2-15<br/>天自由行，含暑期出行</span><br/><br/><br/><br/>
+                <span>【河内】深圳直飞2-15<br/>天自由行，含暑期出行</span><br/><br/>
                 <b>￥1889</b><span>起</span><br/>
                 <span>仅限<b>30</b>份</span>
             </p>
         </div>
     </div>
+    <!--南航旅游定制-->
     <div class="banner-b">
         <ul>
             <li>
@@ -63,6 +86,7 @@
         </ul>
     </div>
 </section>
+<!--页面主题部分，各地旅游推荐-->
 <section class="main">
     <div class="main-t">
         <h3></h3>
@@ -93,10 +117,12 @@
         </ul>
         <div class="main-b-b">
             <h6>展开</h6>
-            <img src="images/t126.png"/>
+            <img src="images/t126.png" class="top"/>
         </div>
     </div>
 </section>
 </body>
 </html>
 <script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.js"></script>
+<script type="text/javascript" src="js/travel.js"></script>

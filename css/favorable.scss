@@ -1,8 +1,16 @@
 @charset "UTF-8";
+body{
+  position: relative;
+}
 header{
   display: flex;
   justify-content: space-between;
   background: #0fa8ec;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 111;
   a{
     img{
       width: 0.36rem;
@@ -21,6 +29,7 @@ header{
   }
 }
 .banner{
+  margin-top: 1.86rem;
   text-align: center;
   img:nth-of-type(1){
     width: 6.56rem;
@@ -62,7 +71,7 @@ header{
 .jipiao{
   background: #90a836;
   border-top: 1px solid #3882e3;
-  ul:nth-of-type(1){
+  .diqu{
     display: flex;
     justify-content:space-between;
     padding: 0.32rem 0.68rem 0.32rem 0.24rem;
@@ -77,12 +86,26 @@ header{
       background: #e7ee22;
       color:#000;
     }
-    li:hover{
-      background: #e7ee22;
-      color:#000;
-    }
   }
-  ul:nth-of-type(2) {
+  #huadong{
+    display: none;
+  }
+  #huazhong{
+    display: none;
+  }
+  #huabei{
+    display: none;
+  }
+  #dongbei{
+    display: none;
+  }
+  #xinan{
+    display: none;
+  }
+  #xibei{
+    display: none;
+  }
+  .huafen{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

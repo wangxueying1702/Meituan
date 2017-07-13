@@ -12,13 +12,15 @@ header {
     height: 0.77rem;
     position: absolute;
     top: 17%;
-    left: 5%; }
+    left: 5%;
+    z-index: 1; }
   header .sao {
     width: 0.86rem;
     height: 0.86rem;
     position: absolute;
     top: 17%;
-    right: 5%; }
+    right: 5%;
+    z-index: 1; }
 
 .banners {
   padding: 0.29rem; }

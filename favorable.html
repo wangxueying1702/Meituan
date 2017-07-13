@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Favorabel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="js/common.js"></script>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/favorable.css">
 </head>
 <body>
+<!--页面Header-->
 <header>
     <a href="index.html"><img src="images/t87.png"/></a>
     <h1>早订早优惠—南航官网</h1>
     <img src="images/t89.png"/>
 </header>
+<!--广告词-->
 <section class="banner">
     <img src="images/t90.png"/>
     <img src="images/t91.png"/>
@@ -25,8 +27,9 @@
         </p>
     </div>
 </section>
+<!--不同地区航班预定查询-->
 <section class="jipiao">
-    <ul>
+    <ul class="diqu">
         <li>华南</li>
         <li>华东</li>
         <li>华中</li>
@@ -35,46 +38,261 @@
         <li>东南</li>
         <li>东北</li>
     </ul>
-    <ul>
-        <li>
-            <p>桂林<img src="images/t93.png"/>昆明</p>
-            <span>￥<b>440</b>起</span>
-            <img src="images/t113.png" class="tu"/>
-        </li>
-        <li>
-            <p>桂林<img src="images/t93.png"/>南京</p>
-            <span>￥<b>580</b>起</span>
-            <img src="images/t113.png" class="tu"/>
-        </li>
-        <li>
-            <p>桂林<img src="images/t93.png"/>北京</p>
-            <span>￥<b>1160</b>起</span>
-            <img src="images/t113.png" class="tu"/>
-        </li>
-        <li>
-            <p>梅县<img src="images/t93.png"/>广州</p>
-            <span>￥<b>190</b>起</span>
-            <img src="images/t113.png" class="tu"/>
-        </li>
-        <li>
-            <p>广州<img src="images/t93.png"/>重庆</p>
-            <span>￥<b>600</b>起</span>
-            <img src="images/t113.png" class="tu"/>
-        </li>
-        <li>
-            <p>广州<img src="images/t93.png"/>大连</p>
-            <span>￥<b>1320</b>起</span>
-            <img src="images/t113.png" class="tu"/>
-        </li>
-    </ul>
-    <h5>更多国内特价机票</h5>
-    <div class="bt">
-        *注：提前越久购票，价格越优惠，低价票数量有限，先<br/>到先得！<br/>以上价格不含税，具体价格和使用条件请以购票时为准。
+    <!--华南-->
+    <div id="huanan">
+        <ul class="huafen">
+            <li>
+                <p>桂林<img src="images/t93.png"/>昆明</p>
+                <span>￥<b>440</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>桂林<img src="images/t93.png"/>南京</p>
+                <span>￥<b>580</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>桂林<img src="images/t93.png"/>北京</p>
+                <span>￥<b>1160</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>梅县<img src="images/t93.png"/>广州</p>
+                <span>￥<b>190</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>广州<img src="images/t93.png"/>重庆</p>
+                <span>￥<b>600</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>广州<img src="images/t93.png"/>大连</p>
+                <span>￥<b>1320</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+        </ul>
     </div>
+    <!--华东-->
+    <div id="huadong">
+        <ul class="huafen">
+            <li>
+                <p>南京<img src="images/t93.png"/>广州</p>
+                <span>￥<b>440</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>南京<img src="images/t93.png"/>厦门</p>
+                <span>￥<b>580</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>南京<img src="images/t93.png"/>乌鲁木齐</p>
+                <span>￥<b>1160</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>南京<img src="images/t93.png"/>广州</p>
+                <span>￥<b>190</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>南京<img src="images/t93.png"/>重庆</p>
+                <span>￥<b>600</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>南京<img src="images/t93.png"/>大连</p>
+                <span>￥<b>1320</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+        </ul>
+    </div>
+    <!--华中-->
+    <div id="huazhong">
+        <ul class="huafen">
+            <li>
+                <p>武当山<img src="images/t93.png"/>广州</p>
+                <span>￥<b>440</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>武汉<img src="images/t93.png"/>厦门</p>
+                <span>￥<b>580</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>武汉<img src="images/t93.png"/>乌鲁木齐</p>
+                <span>￥<b>1160</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>武汉<img src="images/t93.png"/>广州</p>
+                <span>￥<b>190</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>武汉<img src="images/t93.png"/>重庆</p>
+                <span>￥<b>600</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>武汉<img src="images/t93.png"/>大连</p>
+                <span>￥<b>1320</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+        </ul>
+    </div>
+    <!--华北-->
+    <div id="huabei">
+        <ul class="huafen">
+            <li>
+                <p>呼和浩特<img src="images/t93.png"/>乌鲁木齐</p>
+                <span>￥<b>440</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>太原<img src="images/t93.png"/>南宁</p>
+                <span>￥<b>580</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>太原<img src="images/t93.png"/>长沙</p>
+                <span>￥<b>1160</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>天津<img src="images/t93.png"/>哈尔滨</p>
+                <span>￥<b>190</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>北京<img src="images/t93.png"/>大连</p>
+                <span>￥<b>600</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>北京<img src="images/t93.png"/>乌鲁木齐</p>
+                <span>￥<b>1320</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+        </ul>
+    </div>
+    <!--东北-->
+    <div id="dongbei">
+        <ul class="huafen">
+            <li>
+                <p>哈尔滨<img src="images/t93.png"/>上海浦东</p>
+                <span>￥<b>440</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>哈尔滨<img src="images/t93.png"/>珠海</p>
+                <span>￥<b>580</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>哈尔滨<img src="images/t93.png"/>济南</p>
+                <span>￥<b>1160</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>哈尔滨<img src="images/t93.png"/>厦门</p>
+                <span>￥<b>190</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>哈尔滨<img src="images/t93.png"/>南宁</p>
+                <span>￥<b>600</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>哈尔滨<img src="images/t93.png"/>重庆</p>
+                <span>￥<b>1320</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+        </ul>
+    </div>
+    <!--西南-->
+    <div id="xinan">
+        <ul class="huafen">
+            <li>
+                <p>南充<img src="images/t93.png"/>北京</p>
+                <span>￥<b>440</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>九寨沟<img src="images/t93.png"/>重庆</p>
+                <span>￥<b>580</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>贵阳<img src="images/t93.png"/>北京</p>
+                <span>￥<b>1160</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>贵阳<img src="images/t93.png"/>武汉</p>
+                <span>￥<b>190</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>贵阳<img src="images/t93.png"/>珠海</p>
+                <span>￥<b>600</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>贵阳<img src="images/t93.png"/>厦门</p>
+                <span>￥<b>1320</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+        </ul>
+    </div>
+    <!--西北-->
+    <div id="xibei">
+        <ul class="huafen">
+            <li>
+                <p>西宁<img src="images/t93.png"/>郑州</p>
+                <span>￥<b>440</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>西宁<img src="images/t93.png"/>北京</p>
+                <span>￥<b>580</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>西安<img src="images/t93.png"/>济南</p>
+                <span>￥<b>1160</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>西安<img src="images/t93.png"/>桂林</p>
+                <span>￥<b>190</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>西安<img src="images/t93.png"/>南宁</p>
+                <span>￥<b>600</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+            <li>
+                <p>西安<img src="images/t93.png"/>三亚</p>
+                <span>￥<b>1320</b>起</span>
+                <img src="images/t113.png" class="tu"/>
+            </li>
+        </ul>
+    </div>
+    <h5>更多国内特价机票</h5>
+    <p class="bt">
+        *注：提前越久购票，价格越优惠，低价票数量有限，先<br/>到先得！<br/>以上价格不含税，具体价格和使用条件请以购票时为准。
+    </p>
 </section>
+<!--热门旅游推荐-->
 <section class="main">
     <img src="images/t94.png" class="tu1"/>
     <p>暑假将至，一年中最适宜的旅游季节已经来<br/>临，<br/>无论是结伴亲朋，还是举家携子，<br/>尚未迈开旅行脚步的你还在等什么？</p>
+   <!--宁夏银川-->
     <img src="images/t95.png"/>
     <ul>
        <li><img src="images/t96.png"/><span>镇北堡影视城</span></li>
@@ -82,6 +300,7 @@
         <li><img src="images/t98.png"/><span>镇北堡影视城</span></li>
         <li><img src="images/t99.png"/><span>镇北堡影视城</span></li>
     </ul>
+    <!--山东青岛-->
     <img src="images/t100.png"/>
     <ul>
         <li><img src="images/t101.png"/><span>镇北堡影视城</span></li>
@@ -89,6 +308,7 @@
         <li><img src="images/t103.png"/><span>镇北堡影视城</span></li>
         <li><img src="images/t104.png"/><span>镇北堡影视城</span></li>
     </ul>
+    <!--辽宁大连-->
     <img src="images/t105.png"/>
     <ul>
         <li><img src="images/t106.png"/><span>镇北堡影视城</span></li>
@@ -96,6 +316,7 @@
         <li><img src="images/t108.png"/><span>镇北堡影视城</span></li>
         <li><img src="images/t109.png"/><span>镇北堡影视城</span></li>
     </ul>
+    <!--更多精彩推荐-->
     <img src="images/t110.png"/>
     <img src="images/t111.png" class="tu2"/>
     <img src="images/t112.png" class="tu3"/>
@@ -106,3 +327,4 @@
 </body>
 </html>
 <script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/favorable.js"></script>

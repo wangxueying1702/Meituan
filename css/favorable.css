@@ -1,7 +1,15 @@
+body {
+  position: relative; }
+
 header {
   display: flex;
   justify-content: space-between;
-  background: #0fa8ec; }
+  background: #0fa8ec;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 111; }
   header a img {
     width: 0.36rem;
     height: 0.64rem;
@@ -15,6 +23,7 @@ header {
     color: #fff; }
 
 .banner {
+  margin-top: 1.86rem;
   text-align: center; }
   .banner img:nth-of-type(1) {
     width: 6.56rem;
@@ -49,28 +58,37 @@ header {
 .jipiao {
   background: #90a836;
   border-top: 1px solid #3882e3; }
-  .jipiao ul:nth-of-type(1) {
+  .jipiao .diqu {
     display: flex;
     justify-content: space-between;
     padding: 0.32rem 0.68rem 0.32rem 0.24rem; }
-    .jipiao ul:nth-of-type(1) li {
+    .jipiao .diqu li {
       width: 1.36rem;
       height: 0.92rem;
       font: 0.38rem/0.92rem "";
       text-align: center;
       color: #fff; }
-    .jipiao ul:nth-of-type(1) li:nth-of-type(1) {
+    .jipiao .diqu li:nth-of-type(1) {
       background: #e7ee22;
       color: #000; }
-    .jipiao ul:nth-of-type(1) li:hover {
-      background: #e7ee22;
-      color: #000; }
-  .jipiao ul:nth-of-type(2) {
+  .jipiao #huadong {
+    display: none; }
+  .jipiao #huazhong {
+    display: none; }
+  .jipiao #huabei {
+    display: none; }
+  .jipiao #dongbei {
+    display: none; }
+  .jipiao #xinan {
+    display: none; }
+  .jipiao #xibei {
+    display: none; }
+  .jipiao .huafen {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 0.1rem; }
-    .jipiao ul:nth-of-type(2) li {
+    .jipiao .huafen li {
       width: 49.6%;
       height: 1.82rem;
       font: 0.38rem/0.92rem "";
@@ -79,23 +97,23 @@ header {
       padding-left: 0.22rem;
       box-sizing: border-box;
       position: relative; }
-      .jipiao ul:nth-of-type(2) li .tu {
+      .jipiao .huafen li .tu {
         width: 1.10rem;
         height: 0.58rem;
         position: absolute;
         right: 0.2rem;
         bottom: 0.2rem; }
-      .jipiao ul:nth-of-type(2) li p {
+      .jipiao .huafen li p {
         font: 0.38rem/0.76rem "";
         color: #353535;
         margin-bottom: 0.3rem; }
-        .jipiao ul:nth-of-type(2) li p img {
+        .jipiao .huafen li p img {
           width: 0.43rem;
           height: 0.14rem; }
-      .jipiao ul:nth-of-type(2) li span {
+      .jipiao .huafen li span {
         font: 0.38rem/0.74rem "";
         color: #646464; }
-        .jipiao ul:nth-of-type(2) li span b {
+        .jipiao .huafen li span b {
           font: 0.6rem/0.74rem "";
           margin: 0 0.1rem;
           color: #f8bc00; }

@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Car</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="js/common1.js"></script>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/car.css">
 </head>
 <body>
+<!--南航用车页面头部-->
 <header>
     <a href="index.html"><img src="images/t87.png"/></a>
     <h1>南航用车</h1>
@@ -18,8 +19,13 @@
     <img src="images/t86.png"/>
 </section>
 <section class="main">
-    <h3>自驾</h3>
+    <ul class="xunxiang">
+        <li>自驾</li>
+        <li>接机</li>
+        <li>送机</li>
+    </ul>
     <div class="main1">
+        <!--自驾模块-->
         <div class="main11">
             <p>
                 <span>取车城市</span><br/>
@@ -59,7 +65,27 @@
         </div>
         <h2>搜索</h2>
     </div>
+    <!--接机/送机模块-->
+    <div class="main1" id="jieji">
+        <div class="main2">
+            <span>
+                咸阳国际机场
+            </span>
+            <img src="images/t71.png"/>
+        </div>
+        <div class="main2">
+            <span class="dd">
+                请选择目的地
+            </span>
+            <img src="images/t71.png"/>
+        </div>
+        <div class="main2">
+            <span>7月7日<i>周五14:25</i></span>
+        </div>
+        <h2>搜索</h2>
+    </div>
 </section>
 </body>
 </html>
 <script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/car.js"></script>

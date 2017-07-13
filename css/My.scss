@@ -2,6 +2,11 @@
 body{position: relative}
 header{
   background: #0fa8eb;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 111;
+  width: 100%;
   p{
     border-bottom: 1px solid #fff;
     text-align: center;
@@ -44,6 +49,7 @@ header{
   }
 }
 .main{
+  margin-top: 3.84rem;
   margin-left: 0.48rem;
   display: flex;
   justify-content: space-between;

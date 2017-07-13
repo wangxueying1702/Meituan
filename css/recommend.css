@@ -1,0 +1,226 @@
+body {
+  background: #eeeeee; }
+
+.headerRecom {
+  display: flex;
+  justify-content: space-between;
+  background: #0fa8ec;
+  border-bottom: 1px solid #17a5e7; }
+  .headerRecom a:nth-of-type(1) img {
+    width: 0.42rem;
+    height: 0.57rem;
+    margin: 0.65rem 0 0 0.45rem; }
+  .headerRecom a:nth-of-type(2) img {
+    width: 0.92rem;
+    height: 0.74rem;
+    margin: 0.55rem 0.45rem 0 0; }
+  .headerRecom h1 {
+    font: 0.53rem/1.90rem "";
+    color: #fff; }
+
+.bannerRecom img {
+  width: 100%;
+  height: 8.12rem; }
+
+.edwin {
+  margin: 0 0.36rem; }
+  .edwin img {
+    margin-top: 0.1rem;
+    width: 6.12rem;
+    height: 2.40rem; }
+
+.featured {
+  margin: 0 0.36rem; }
+  .featured img {
+    margin-top: 0.1rem;
+    width: 5.94rem;
+    height: 2.52rem; }
+
+.exit {
+  margin: 0 0.36rem; }
+  .exit img {
+    margin-top: 0.1rem;
+    width: 5.96rem;
+    height: 2.50rem; }
+
+.customization {
+  margin: 0 0.36rem;
+  position: relative; }
+  .customization img {
+    margin-top: 0.1rem;
+    width: 5.96rem;
+    height: 2.50rem; }
+  .customization h5 {
+    position: absolute;
+    bottom: -0.5rem;
+    right: 0.2rem;
+    font-size: 0.26rem;
+    color: #919193; }
+
+.Refooter {
+  margin: 0 0.32rem 0.2rem 0.32rem; }
+  .Refooter img:nth-of-type(1) {
+    width: 5.6rem;
+    height: 2.24rem; }
+  .Refooter img:nth-of-type(2) {
+    width: 100%;
+    height: 3.12rem;
+    margin-bottom: 0.1rem; }
+  .Refooter img:nth-of-type(3) {
+    width: 100%;
+    height: 3.11rem; }
+
+.zedwin {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .zedwin .edwin1 {
+    background: #fff;
+    margin-bottom: 0.2rem; }
+    .zedwin .edwin1 img {
+      width: 5.02rem;
+      height: 3.02rem;
+      margin: 0; }
+    .zedwin .edwin1 h3 {
+      font: 700 0.38rem/0.74rem "";
+      color: #000;
+      margin-left: 0.1rem; }
+    .zedwin .edwin1 span {
+      font: 0.26rem/0.40rem "";
+      color: #8b8d8c;
+      margin-left: 0.1rem; }
+    .zedwin .edwin1 .xing {
+      width: 0.15rem;
+      height: 0.18rem;
+      margin: 0;
+      margin-left: 0.1rem; }
+    .zedwin .edwin1 .edwin2 {
+      display: flex;
+      justify-content: space-between; }
+      .zedwin .edwin1 .edwin2 p {
+        margin: 0.64rem 0.1rem 0.13rem 0.1rem; }
+        .zedwin .edwin1 .edwin2 p span {
+          font-size: 0.38rem;
+          color: #ea0854; }
+        .zedwin .edwin1 .edwin2 p b {
+          font-size: 0.22rem;
+          color: #ea0854; }
+          .zedwin .edwin1 .edwin2 p b u {
+            font-size: 0.22rem;
+            margin-left: 0.15rem; }
+          .zedwin .edwin1 .edwin2 p b s {
+            font-size: 0.22rem;
+            text-decoration: line-through; }
+      .zedwin .edwin1 .edwin2 h4 {
+        width: 1.92rem;
+        height: 0.65rem;
+        border-radius: 0.325rem;
+        background: #ea0854;
+        text-align: center;
+        font: 0.22rem/0.65rem "";
+        color: #FFF;
+        margin-top: 0.7rem; }
+
+.duo h6 {
+  text-align: center;
+  width: 85%;
+  height: 1.40rem;
+  border-radius: 0.1rem;
+  background: #02c3ae;
+  text-align: center;
+  font: 0.38rem/1.4rem "";
+  color: #FFF;
+  margin: 0.62rem auto; }
+  .duo h6 img {
+    width: 0.53rem;
+    height: 0.54rem;
+    margin-left: 0.2rem; }
+
+.Reserve {
+  position: relative; }
+  .Reserve h5 {
+    text-align: center;
+    width: 100%;
+    height: 1.20rem;
+    background: #15cac3;
+    text-align: center;
+    font: 0.38rem/1.2rem "";
+    color: #FFF;
+    margin-bottom: 0.35rem; }
+  .Reserve h6 {
+    width: 2.54rem;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    z-index: 1; }
+  .Reserve h6:nth-of-type(1) {
+    left: 0.9rem;
+    top: 0.55rem; }
+  .Reserve h6:nth-of-type(2) {
+    right: 0.9rem;
+    top: 0.55rem; }
+  .Reserve .Reservemain {
+    margin-top: 0.35rem;
+    background: #FFF; }
+    .Reserve .Reservemain ul:nth-of-type(1) {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #23cfd1; }
+      .Reserve .Reservemain ul:nth-of-type(1) li {
+        width: 25%;
+        height: 0.9rem;
+        text-align: center;
+        border-right: 1px solid #f4f4f6;
+        border-bottom: 1px solid #e0ffff;
+        font: 0.32rem/0.9rem "";
+        color: #2c2c2c; }
+      .Reserve .Reservemain ul:nth-of-type(1) li:nth-of-type(1) {
+        background: #27d0d5;
+        color: #fff; }
+    .Reserve .Reservemain #beijing {
+      display: none; }
+    .Reserve .Reservemain #changsha {
+      display: none; }
+    .Reserve .Reservemain #chongqing {
+      display: none; }
+    .Reserve .Reservemain .Reservemains {
+      margin: 0.2rem 0.2rem 0.4rem 0.2rem;
+      padding-bottom: 0.2rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .Reserve .Reservemain .Reservemains .Reservemains-li {
+        margin-bottom: 0.24rem;
+        display: flex;
+        justify-content: space-between;
+        width: 45.4%;
+        background: #e5f4f1;
+        padding: 0 0.2rem; }
+        .Reserve .Reservemain .Reservemains .Reservemains-li p span {
+          font: 0.32rem/0.76rem "";
+          color: #303a39; }
+          .Reserve .Reservemain .Reservemains .Reservemains-li p span img {
+            width: 0.3rem;
+            height: 0.16rem;
+            margin: 0 0.1rem; }
+        .Reserve .Reservemain .Reservemains .Reservemains-li p b {
+          font: 0.24rem/0.65rem "";
+          color: #2d3333; }
+          .Reserve .Reservemain .Reservemains .Reservemains-li p b s {
+            font: 0.40rem/0.65rem "";
+            color: #c91554; }
+        .Reserve .Reservemain .Reservemains .Reservemains-li h4 {
+          width: 1.65rem;
+          height: 0.74rem;
+          color: #fff;
+          text-align: center;
+          font: 0.4rem/0.74rem "";
+          background: #f30054;
+          margin-top: 0.4rem; }
+      .Reserve .Reservemain .Reservemains h2 {
+        width: 100%;
+        text-align: right;
+        font: 0.22rem/0.4rem "";
+        color: #6f6f6f; }
+
+/*# sourceMappingURL=recommend.css.map */
